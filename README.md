@@ -11,7 +11,7 @@ git clone https://github.com/xing-phys/Slidev-Trial.git
 cd Slidev-Trial
 ```
 - Install dependecies: `pnpm install`
-- Start Slidev `pnpm dev`
+- Start Slidev: `pnpm dev`
 - Visit <http://localhost:3030>
 
 ## Preview the slide online
