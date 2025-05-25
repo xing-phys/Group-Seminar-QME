@@ -462,13 +462,17 @@ LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
 Inline $\sqrt{3x-1}+(1+x)^2$
 
 Block
-$$ {1|3|all}
+$$ {1|2|3|4|all}
 \begin{aligned}
 \nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
 \nabla \cdot \vec{B} &= 0 \\
 \nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
 \nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
 \end{aligned}
+$$
+
+$$
+\mathscr{L}[\rho] = \frac{d\rho}{dt} = -i[H, \rho] +  \sum_{i} L_i \rho L^{\dagger}_i + \frac{1}{2} \left\{ L^{\dagger}_{i}L_{i}, \rho \right\}
 $$
 
 [Learn more](https://sli.dev/features/latex)
@@ -555,6 +559,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 foo: bar
 dragPos:
   square: 691,32,167,_,-16
+  equation: 69,179,499,93,-67
 ---
 
 # Draggable Elements
@@ -579,6 +584,25 @@ Double-click on the draggable elements to edit their positions.
   Use the `v-drag` component to have a draggable container!
 </v-drag>
 ```
+
+<v-drag text-3xl pos="685,324,175,112">
+  <div class="i-carbon:arrow-up" />
+
+  $$ \vec{F} = m \vec{a} $$
+
+</v-drag>
+
+
+<v-drag pos="145,243,549,87,26">
+
+  $$
+    \mathscr{L}[\rho] = \frac{d\rho}{dt} = -i[H, \rho] +  \sum_{i} L_i \rho L^{\dagger}_i + \frac{1}{2} \left\{ L^{\dagger}_{i}L_{i}, \rho \right\}
+  $$
+
+</v-drag>
+
+
+
 
 <v-drag pos="663,206,261,_,-15">
   <div text-center text-3xl border border-main rounded>
