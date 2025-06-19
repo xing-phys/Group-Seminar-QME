@@ -1780,7 +1780,7 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig'" src="/assets/floquet.png">
+<img v-drag="'fig'" src="/assets/Floquet.png">
 </div>
 
 <v-drag pos="8,461,225,68" v-after style="font-size: 16px;">
