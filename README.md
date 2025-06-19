@@ -1,4 +1,6 @@
-# This is My Trial of Deploying a [Slidev](https://github.com/slidevjs/slidev) Project!
+# Group Seminar Slides
+
+This is my presentation titled "Quantum Mpemba Effect" given in my group seminar on 19th June, 2025.
 
 ## How to start the slide show locally
 
