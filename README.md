@@ -10,7 +10,7 @@ git clone https://github.com/xing-phys/Group-Seminar-QME.git
 ```
 - Navigate to the project repository:
 ```bash
-cd Slidev-Trial
+cd Group-Seminar-QME
 ```
 - Install dependecies: `pnpm install`
 - Start Slidev: `pnpm dev`
