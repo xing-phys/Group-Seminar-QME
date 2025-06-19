@@ -40,10 +40,10 @@ Thursday's seminar
 <v-drag pos="318,402,313,116">
   <LightOrDark>
     <template #dark>
-      <img src="/public/assets/logo-white.png" alt="Dark mode figure" />
+      <img src="/assets/logo-white.png" alt="Dark mode figure" />
     </template>
     <template #light>
-      <img src="/public/assets/logo-white.png" alt="Light mode figure" />
+      <img src="/assets/logo-white.png" alt="Light mode figure" />
     </template>
   </LightOrDark>
 </v-drag>
@@ -99,7 +99,7 @@ dragPos:
 # Background
 
 <v-drag pos="53,108,611,393">
-<img src="/public/assets/MP.png"/>
+<img src="/assets/MP.png"/>
 </v-drag>
 
 <v-drag pos="bib">
@@ -168,7 +168,7 @@ F. Carollo _et al._, [Phys. Rev. Lett. **127**, 060401 (2021)](https://link.aps.
 </v-drag>
 
 <v-drag pos="72,131,819,330">
-<img src="/public/assets/Fast.png"/>
+<img src="/assets/Fast.png"/>
 </v-drag>
 
 <div h-95 />
@@ -606,7 +606,7 @@ dragPos:
 Dissipative Dicke model
 
 <v-drag pos="12,217,675,302">
-<img src="/public/assets/Dicke_Mpemba.png"/>
+<img src="/assets/Dicke_Mpemba.png"/>
 </v-drag>
 
 <v-drag pos="bib">
@@ -738,7 +738,7 @@ F. Carollo _et al._, [Phys. Rev. Lett. **127**, 060401 (2021)](https://link.aps.
 </v-drag>
 
 <v-drag pos="101,140,792,360">
-<img src="/public/assets/Rydberg_Mpemba.png"/>
+<img src="/assets/Rydberg_Mpemba.png"/>
 </v-drag>
 
 <v-drag pos="340,28,467,103">
@@ -755,7 +755,8 @@ $$
 level: 2
 dragPos:
   bib: 676,495,300,62
-  fig: -16,0,0,0
+  fig1: 125,144,801,366
+  fig2: 128,140,799,376
 ---
 
 # Experimental Observation
@@ -779,7 +780,7 @@ $$
   </span>
 </v-drag>
 
-<img v-drag="'fig'" src="/public/assets/strong_ex1.png">
+<img v-drag="'fig1'" src="/assets/strong_ex1.png">
 
 <v-click>
 
@@ -809,15 +810,15 @@ From strong ME to weak ME
 
 <div v-after>
 
-<img v-drag="'fig'" src="/public/assets/strong_ex2.png">
+<img v-drag="'fig2'" src="/assets/strong_ex2.png">
 
 </div>
 
 ---
 dragPos:
-  arrow: -16,0,0,0
-  AA: -16,0,0,0
-  AA1: -16,0,0,0
+  AA: 252,88,604,91
+  arrow: 589,175,54,261
+  AA1: 249,415,624,72
 transition: fade-out
 ---
 
@@ -860,15 +861,15 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'AA'" src="/public/assets/AA.svg">
+<img v-drag="'AA'" src="/assets/AA.svg">
 </div>
 
 <div v-click>
-<img v-drag="'arrow'" src="/public/assets/arrow.svg">
+<img v-drag="'arrow'" src="/assets/arrow.svg">
 </div>
 
 <div v-click>
-<img v-drag="'AA1'" src="/public/assets/AA1.svg">
+<img v-drag="'AA1'" src="/assets/AA1.svg">
 </div>
 
 <v-drag pos="315,169,258,94">
@@ -954,7 +955,7 @@ $$
   :leave="{ x: 50, y: 50 }"
 >
 
-<img src="/public/assets/rho.png">
+<img src="/assets/rho.png">
 
 </div>
 </v-drag>
@@ -1148,16 +1149,16 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig'" src="/public/assets/EA0.png">
+<img v-drag="'fig'" src="/assets/EA0.png">
 </div>
 
 ---
 level: 2
 dragPos:
   bib: 676,495,300,62
-  arrow: -16,0,0,0
   fig: 17,101,446,464
   box: 743,30,178,206
+  arrow: 64,187,40,280
 transition: fade
 ---
 
@@ -1180,7 +1181,7 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'arrow'" src="/public/assets/arrow.svg">
+<img v-drag="'arrow'" src="/assets/arrow.svg">
 </div>
 
 <v-drag pos="131,236,288,97">
@@ -1283,7 +1284,7 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig'" src="/public/assets/EAt.png">
+<img v-drag="'fig'" src="/assets/EAt.png">
 </div>
 
 ---
@@ -1302,7 +1303,7 @@ F. Ares _et al._, [Nat Commun **14**, 2036 (2023)](https://www.nature.com/articl
 
 </v-drag>
 
-<img v-drag="'fig'" src="/public/assets/QME_.png">
+<img v-drag="'fig'" src="/assets/QME_.png">
 
 <v-drag pos="15,318,419,173" v-after style="font-size: 18px;">
 
@@ -1366,7 +1367,7 @@ transition: fade
 # Trapped-Ion Quantum Simulation
 Symmetry restoration with a long-range spin-spin interaction
 
-<img v-drag="'fig'" src="/public/assets/ion.png">
+<img v-drag="'fig'" src="/assets/ion.png">
 
 <v-drag pos="bib" style="font-family: 'Georgia', serif; font-size: 12px;">
 
@@ -1423,7 +1424,7 @@ L. Kh. Joshi _et al._, [Phys. Rev. Lett. **133**, 010402 (2024)](https://link.ap
 
 </v-drag>
 
-<img v-drag="'fig'" src="/public/assets/disorder.png">
+<img v-drag="'fig'" src="/assets/disorder.png">
 
 <v-drag pos="537,39,419,91" v-after style="font-size: 18px;">
 
@@ -1570,8 +1571,8 @@ $$
 level: 2
 dragPos:
   bib: 676,495,300,62
-  fig1: -16,0,0,0
-  fig2: -16,0,0,0
+  fig1: 447,17,522,248
+  fig2: 446,274,529,239
 transition: fade
 ---
 
@@ -1620,7 +1621,7 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig1'" src="/public/assets/EN.png">
+<img v-drag="'fig1'" src="/assets/EN.png">
 </div>
 
 <v-drag pos="681,232,97,59" v-after style="font-size: 16px; color: rgb(114, 36, 0);">
@@ -1634,14 +1635,14 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig2'" src="/public/assets/IPR.png">
+<img v-drag="'fig2'" src="/assets/IPR.png">
 </div>
 
 ---
 level: 2
 dragPos:
   bib: 676,495,300,62
-  fig: -16,0,0,0
+  fig: 55,184,868,327
 
 transition: fade
 ---
@@ -1695,7 +1696,7 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig'" src="/public/assets/random.png">
+<img v-drag="'fig'" src="/assets/random.png">
 </div>
 
 <v-drag pos="426,467,97,59" v-after style="font-size: 20px; color: rgb(114, 36, 0);">
@@ -1780,7 +1781,7 @@ $$
 </v-drag>
 
 <div v-click>
-<img v-drag="'fig'" src="/public/assets/Floquet.png">
+<img v-drag="'fig'" src="/assets/Floquet.png">
 </div>
 
 <v-drag pos="8,461,225,68" v-after style="font-size: 16px;">
@@ -1817,7 +1818,7 @@ T. Bhore _et al._, [arXiv:2505.17181](http://arxiv.org/abs/2505.17181)
 
 </v-drag>
 
-<img v-drag="'fig'" src="/public/assets/compare.png">
+<img v-drag="'fig'" src="/assets/compare.png">
 
 <v-drag pos="26,350,451,185" v-after style="font-size: 20px;">
 
