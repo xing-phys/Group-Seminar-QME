@@ -1,0 +1,39 @@
+.slidev-layout a {
+  color: #2B90B6; /* Custom link color */
+}
+
+.slidev-layout a:hover {
+  color: #8c4c14; /* Hover color */
+}
+
+/* Target superscript numbers in the main text */
+sup {
+font-size: 10px; /* Smaller font for superscript */
+font-family: 'Arial', sans-serif; /* Custom font */
+vertical-align: super; /* Ensure proper superscript alignment */
+}
+
+/* Target footnote text at the bottom */
+[id^='fn'], .footnote, .footnotes p {
+font-size: 12px; /* Smaller font for footnote text */
+font-family: 'Georgia', serif; /* Custom font */
+color: #666; /* Optional: custom color */
+line-height: 0;
+margin-top: 3px; /* Spacing from main content */
+margin-bottom: 3px; /* Space between footnotes */
+}
+
+.grid-cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.toc li {
+  margin-bottom: 0.5rem;
+}
