@@ -6,7 +6,7 @@ This is my presentation titled "Quantum Mpemba Effect" given in my group seminar
 
 - Clone this repository to your machine:
 ```bash
-git clone https://github.com/xing-phys/Slidev-Trial.git
+git clone https://github.com/xing-phys/Group-Seminar-QME.git
 ```
 - Navigate to the project repository:
 ```bash
@@ -17,5 +17,5 @@ cd Slidev-Trial
 - Visit <http://localhost:3030>
 
 ## Preview the slide online
-Visit [this slide show](https://xing-phys.github.io/Slidev-Trial/)
+Visit [this slide show](https://xing-phys.github.io/Group-Seminar-QME/)
 
